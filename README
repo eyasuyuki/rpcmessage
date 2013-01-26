@@ -1,0 +1,11 @@
+rpcgen example from Oracle's OCN+ Development Guide.
+
+http://docs.oracle.com/cd/E19683-01/816-3978/6ma7kltmf/index.html
+
+ex.)
+./configure
+make
+sudo ./src/messageServer
+
+client)
+./src/messageServer <hostname> "Hello, World."
